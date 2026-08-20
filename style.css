@@ -95,11 +95,14 @@ a:hover{
     display: inline;
 }
 .list-inline i{
-    font-size: 50px;
-    color: rgb(138, 138, 138);
+    font-size: 42px;
+    color: #666b87;
+    transition: all 0.3s ease;
 }
+
 .list-inline i:hover{
-    color: black;
+    color: #a18cd1;
+    transform: translateY(-5px);
 }
 #introduction p{
     #introduction p{
