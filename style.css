@@ -112,4 +112,15 @@ a:hover{
     line-height: 1.9;
     color: #626984;
 }
+.social-card{
+    padding: 40px 30px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #ffffff, #f4f2fa);
+    box-shadow: 0 12px 35px rgba(87, 95, 125, 0.12);
+}
+
+.social-card h2{
+    margin-bottom: 25px;
+    color: #6d668f;
+}
 }
