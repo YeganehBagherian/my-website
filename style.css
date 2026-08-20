@@ -102,7 +102,13 @@ a:hover{
 
 .list-inline i:hover{
     color: #a18cd1;
-    transform: translateY(-5px);
+}
+.social-card .list-inline i{
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-card .list-inline i:hover{
+    transform: translateY(-6px) scale(1.08);
 }
 #introduction p{
     #introduction p{
