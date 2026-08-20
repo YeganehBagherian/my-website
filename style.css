@@ -66,16 +66,6 @@ a:hover{
 .img-circle{
     border-radius: 50%;
 }
-.btn-blue{
-    background-color:#655d8a;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 4px;
-}
-.btn-blue:hover{
-    background-color: black;
-    color: white;
-}
 .list-inline {
     padding-left: 0px;
     list-style: none;
