@@ -207,4 +207,137 @@ a:hover{
         justify-content: center;
     }
 }
+/* =========================
+   HERO SECTION
+========================= */
+
+#hero {
+    padding: 80px 0;
+}
+
+.hero-content {
+    width: min(92%, 1100px);
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #a18cd1;
+    margin-bottom: 15px;
+}
+.hero-text h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    line-height: 1.2;
+    color: #4f5275;
+    margin: 0 0 25px;
+}
+
+.hero-description {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #626984;
+    max-width: 600px;
+    margin-bottom: 35px;
+}
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.primary-button,
+.secondary-button {
+    display: inline-block;
+    padding: 13px 24px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.primary-button {
+    background: #a18cd1;
+    color: white;
+}
+.primary-button:hover {
+    background: #8f78c2;
+    color: white;
+    transform: translateY(-3px);
+}
+.secondary-button {
+    border: 2px solid #a18cd1;
+    color: #a18cd1;
+}
+.secondary-button:hover {
+    background: #a18cd1;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* =========================
+   HERO IMAGE
+========================= */
+
+.hero-image {
+    flex: 0 0 360px;
+    display: flex;
+    justify-content: center;
+}
+.hero-image .avatar {
+    width: 320px;
+    height: 320px;
+    margin: 0;
+}
+.hero-image .img-circle {
+    width: 280px;
+    height: 280px;
+    margin: 0;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 800px) {
+
+    #hero {
+        padding: 50px 0;
+    }
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 45px;
+    }
+    .hero-text {
+        width: 100%;
+    }
+    .hero-text h1 {
+        font-size: 40px;
+    }
+    .hero-description {
+        font-size: 17px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .hero-image {
+        flex: none;
+    }
+}
 }
