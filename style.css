@@ -136,4 +136,47 @@ a:hover{
     margin-bottom: 25px;
     letter-spacing: 0.5px;
 }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #4f5275;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #575f7d;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #a18cd1;
+}
+
+.nav-button {
+    background: #a18cd1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.nav-button:hover {
+    background: #8f78c2;
+    color: white;
+}
 }
